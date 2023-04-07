@@ -1,0 +1,76 @@
+/*---------Обнуление---------*/
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+a,
+button,
+input[type="submit"] {
+    border: 0px;
+    display: inline-block;
+    box-shadow: none;
+    background: none;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
+/*---------Шрифты---------*/
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins', 'POPPINS', 'PoppinsMedium', 'Poppins-Medium');
+    src: url(./Fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: local('Poppins-Bold', 'POPPINS-BOLD', 'PoppinsBold', 'POPPINSBOLD');
+    src: url(./Fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'DMSans';
+    src: local('DMSans', 'DMSANS', 'DMSansMedium', 'DMSans-Medium');
+    src: url(./Fonts/DMSans/DMSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'DMSans-Regular';
+    src: local('DMSans-Regular', 'DMSANS-REGULAR', 'DMSansRegular', 'DMSans-Regular');
+    src: url(./Fonts/DMSans/DMSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'DMSans-Bold';
+    src: local('DMSans-Bold', 'DMSANS-BOLD', 'DMSansBold', 'DMSANSBOLD');
+    src: url(./Fonts/DMSans/DMSans-Bold.ttf);
+}
+/*---------Стили---------*/
+body {
+  margin: 0;
+  font-family: 'DMSans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

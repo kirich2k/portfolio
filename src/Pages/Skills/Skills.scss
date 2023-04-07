@@ -1,0 +1,69 @@
+/*----Компоненты----*/
+.skills {
+    max-width: 571px;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__title {
+        font-family: 'DMSans-Bold';
+        width: 100%;
+        font-size: 60px;
+        line-height: 78px;
+        font-weight: 700;
+        text-align: center;
+        color: #5C62EC;
+    }
+}
+
+.front {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__title {
+        width: 100%;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+    }
+    &__description {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+
+.back {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__title {
+        width: 100%;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+    }
+    &__description {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+
+.main#skills {
+    font-family: 'DMSans';
+    width: 100%;
+    min-height: 815px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #171718;
+}

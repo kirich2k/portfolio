@@ -1,0 +1,65 @@
+/*----Компоненты----*/
+.project {
+    max-width: 865px;
+    width: 100%;
+    margin: 70px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__title {
+        font-family: "DMSans-Bold";
+        width: 100%;
+        font-size: 60px;
+        line-height: 78px;
+        font-weight: 700;
+        text-align: center;
+        color: #5c62ec;
+    }
+    &__img {
+        margin: 40px 0px;
+
+        img {
+            max-width: 865px;
+            width: 100%;
+            max-height: 650px;
+            border-radius: 10px;
+            pointer-events: none;
+            box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+        }
+    }
+    &__skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__description {
+        margin-bottom: 30px;
+        font-family: "DMSans-Bold";
+        font-size: 24px;
+        line-height: 31px;
+        font-weight: 700;
+    }
+    &__btn {
+        padding: 12px 20px;
+        display: inline-flex;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 5px;
+        &:hover {
+            box-shadow: 0px 0px 20px #00000048;
+        }
+        img {
+            margin-right: 10px;
+        }
+    }
+}
+.main#project {
+    font-family: "DMSans";
+    width: 100%;
+    min-height: 815px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #171718;
+}

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*----Компоненты----*/
+.contacts {
+  max-width: 571px;
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contacts__title {
+  font-family: "DMSans-Bold";
+  width: 100%;
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  text-align: center;
+  color: #5C62EC;
+}
+
+.location {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.location__title {
+  width: 100%;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+.location__description {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.number {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.number__title {
+  width: 100%;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+.number__description {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.mail {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mail__title {
+  width: 100%;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+.mail__description {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5C62EC;
+}
+
+.main#contacts {
+  font-family: "DMSans";
+  width: 100%;
+  min-height: 815px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #171718;
+}/*# sourceMappingURL=Contacts.css.map */

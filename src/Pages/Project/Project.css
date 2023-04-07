@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*----Компоненты----*/
+.project {
+  max-width: 865px;
+  width: 100%;
+  margin: 70px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.project__title {
+  font-family: "DMSans-Bold";
+  width: 100%;
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  text-align: center;
+  color: #5c62ec;
+}
+.project__img {
+  margin: 40px 0px;
+}
+.project__img img {
+  max-width: 865px;
+  width: 100%;
+  max-height: 650px;
+  border-radius: 10px;
+  pointer-events: none;
+  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+}
+.project__skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project__description {
+  margin-bottom: 30px;
+  font-family: "DMSans-Bold";
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+}
+.project__btn {
+  padding: 12px 20px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.project__btn:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2823529412);
+}
+.project__btn img {
+  margin-right: 10px;
+}
+
+.main#project {
+  font-family: "DMSans";
+  width: 100%;
+  min-height: 815px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #171718;
+}/*# sourceMappingURL=Project.css.map */
